@@ -1,0 +1,324 @@
+:root {
+  --brandColor: #754ffe;
+}
+.text-primary {
+  color: var(--brandColor) !important;
+}
+.bg-primary,
+.btn-primary {
+  background-color: var(--brandColor) !important;
+  background: var(--brandColor) !important;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-menu {
+  text-transform: uppercase;
+}
+.dropdown .btn {
+  text-transform: capitalize;
+}
+.sun-image .btn {
+  text-transform: capitalize;
+  border: 1px solid var(--brandColor);
+  color: var(--brandColor);
+  font-weight: 500;
+}
+h1 {
+  font-weight: bold;
+  font-size: 60px;
+}
+.banner,
+.bg-violet {
+  background-image: linear-gradient(to right, #fff 40%, #b3b3ff);
+}
+.banner .modern {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+u {
+  color: var(--brandColor);
+  font-weight: bold;
+}
+.sites .geeks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fast {
+  color: var(--brandColor);
+  font-weight: bold;
+}
+.love {
+  font-size: 45px;
+  font-weight: bold;
+}
+.mauris {
+  font-weight: bold;
+}
+.banner .btn {
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.modern {
+  font-weight: 600;
+}
+.banner .fa-circle-check:before {
+  content: "\f058";
+  color: #72b972;
+  margin-right: 10px;
+}
+.sites .geeks .stars {
+  flex-direction: column;
+  color: rgb(124, 123, 123);
+  font-weight: 600;
+}
+.sites .geeks .stars .fa-circle-check:before {
+  content: "\f058";
+  color: #72b972;
+  margin-right: 10px;
+}
+.sites img {
+  border-radius: 25px;
+  background-color: #e2e8f0;
+}
+.border-bottom {
+  border-bottom: 1px solid gainsboro;
+}
+.powerful-design .fa-star:before,
+.fa {
+  margin-right: 5px;
+  color: var(--brandColor);
+}
+.powerful-design .wep {
+  justify-content: center;
+  align-items: center;
+}
+.powerful-design .f-bold {
+  font-weight: 600;
+  font-size: 20px;
+}
+.powerful-design .imagess {
+  border-radius: 25px;
+  background-color: #e2e8f0;
+}
+.apps {
+  background-color: #e2e8f0;
+}
+.apps .card {
+  min-height: 200px;
+}
+.apps .integrate {
+  font-size: 50px;
+  font-weight: bold;
+}
+.apps .bold {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.apps .w-25 {
+  width: 48px !important;
+  height: 48px !important;
+}
+.apps .btnparent .btn {
+  background-color: #754ffe;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.apps .text-danger {
+  font-weight: 500;
+}
+.apps .text-gray {
+  font-weight: 600;
+  color: rgb(115, 109, 109);
+}
+.hubspot .purchase {
+  font-weight: 600;
+  color: rgb(115, 109, 109);
+}
+.hubspot .ali {
+  font-weight: 600;
+}
+.hubspot .ul {
+  color: rgb(115, 109, 109);
+}
+.underline {
+  border-bottom: 1px solid gainsboro;
+}
+
+.setups i {
+  background-color: var(--brandColor);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.setups .process {
+  color: rgb(115, 109, 109);
+  font-weight: 500;
+}
+
+.setups i:before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  color: #fff;
+  font-size: 22px;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 5px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2f1278;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.simple-plans .pay {
+  padding-right: 10px;
+  color: rgb(115, 109, 109);
+  font-weight: bold;
+}
+.simple-plans .pays {
+  padding-left: 10px;
+  color: rgb(115, 109, 109);
+  font-weight: bold;
+}
+.plans {
+  color: rgb(115, 109, 109);
+  font-weight: 600;
+}
+.planss {
+  color: black;
+  font-weight: bold;
+  font-size: 42px;
+}
+.simple-plans .btn {
+  margin-left: 30px;
+  font-weight: 600;
+  width: fit-content;
+}
+.simple-plans .quality {
+  margin-left: 30px;
+}
+.simple-plans .free {
+  font-weight: 620;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.simple-plans .dollar {
+  font-weight: 620;
+  font-size: 50px;
+}
+.simple-plans .fa-check:before {
+  color: #72b972;
+  margin-right: 10px;
+}
+.simple-plans .fa-times:before {
+  color: #72b972;
+  margin-right: 10px;
+}
+.simple-plans .card .btnn {
+  background-color: var(--brandColor);
+}
+.custom-plan .need {
+  font-weight: bold;
+  font-size: 25px;
+}
+.things {
+  background-color: #d5dce4;
+}
+.fall {
+  font-size: 50px;
+  font-weight: bold;
+}
+.things .btn-bolue {
+  border: none;
+  background-color: var(--brandColor);
+  border-radius: 4px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #fff;
+}
+.footer {
+  font-weight: 600;
+  font-size: 3x;
+  text-transform: capitalize;
+  color: rgb(115, 109, 109);
+}
+.footer .h3 {
+  color: black;
+}
+.rating .text {
+  color: grey;
+  font-size: 16px;
+  font-weight: 600;
+}
+.footer .w-25 {
+  width: 45% !important;
+}
+.footer .fa {
+  color: black;
+}
+.footer .fa:hover {
+  color: var(--brandColor);
+}
+.footer .end {
+  color: black;
+  text-decoration: none;
+}
